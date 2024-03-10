@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const globalJsdom = require("global-jsdom");
 const { HtmlValidate } = require("html-validate");
+const { clear } = require("console");
 
 chai.use(require("chai-dom"));
 const { expect } = chai;
